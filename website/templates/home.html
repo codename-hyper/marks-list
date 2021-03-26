@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block title %}Home{% endblock %}
+
+{% block body %}
+<h1 align="center">Enter you marks</h1>
+<form method='POST' action='#' class='form-control'>
+    <p><input type=number placeholder='Enter 10th class marks' class='form-control' name='tenth'></p>
+    <p><input type=number placeholder='Enter intermediate marks' class='form-control' name='inter'></p>
+    <p><input type=number placeholder='Enter degree marks' class='form-control' name='degree'></p>
+    <p><input type=submit value='submit' align="center" class="btn btn-primary"></p>
+</form>
+{% endblock %}
